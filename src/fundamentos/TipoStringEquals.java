@@ -1,0 +1,19 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class TipoStringEquals {
+
+    public static void main(String[] args) {
+
+        String s = new String("2");
+        System.out.println("2".equals(s));
+
+        Scanner scanner = new Scanner(System.in);
+
+        String s2 = scanner.nextLine();
+        System.out.println("2".equals(s2.trim()));
+
+        scanner.close();
+    }
+}
