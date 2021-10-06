@@ -11,22 +11,22 @@ public class ProdutoTeste {
 
         p1.nome = "Desktop";
         p1.preco = 4.500;
-        p1.desconto = 0.10;
+        Produto.desconto = 0.10;
 
         p2.nome = "Game";
         p2.preco = 3.500;
-        p2.desconto = 0.20;
+        Produto.desconto = 0.10;
 
         p3.nome = "Game";
         p3.preco = 3.500;
-        p3.desconto = 0.20;
+        Produto.desconto = 0.10;
 
-        double final1 = ((p1.preco * p1.desconto) + p1.preco);
-        double final2 = ((p2.preco * p2.desconto) + p2.preco);
-        double final3 = ((p3.preco * p3.desconto) + p3.preco);
+        double final1 = p1.precoComDesconto();
+        double final2 = p2.precoComDesconto();
+        double final3 = p3.precoComDesconto();
 
-        System.out.printf("Media R$ %.2f\n",final1);
-        System.out.printf("Media R$ %.2f\n",final2);
-        System.out.printf("Media R$ %.2f\n",final3);
+        System.out.printf("Desconto R$ %.3f\n",final1);
+        System.out.printf("Desconto R$ %.3f\n",final2);
+        System.out.printf("Desconto R$ %.3f\n",final3);
     }
 }
