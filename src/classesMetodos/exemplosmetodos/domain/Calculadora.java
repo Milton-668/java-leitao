@@ -1,4 +1,4 @@
-package classesMetodos.exemplosmetodos;
+package classesMetodos.exemplosmetodos.domain;
 
 public class Calculadora {
 

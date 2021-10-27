@@ -1,4 +1,6 @@
-package classesMetodos.exemplosmetodos;
+package classesMetodos.exemplosmetodos.test;
+
+import classesMetodos.exemplosmetodos.domain.Calculadora;
 
 public class CalcPrimitivoTest {
 
