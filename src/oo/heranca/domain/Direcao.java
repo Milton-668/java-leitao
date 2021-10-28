@@ -1,4 +1,4 @@
-package oo.heranca;
+package oo.heranca.domain;
 
 public enum Direcao {
 

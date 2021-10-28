@@ -4,7 +4,7 @@ public class Corsa extends Carro {
 
     public Corsa(int velocidadeMaxima) {
         super(velocidadeMaxima);
-        range = 5;
+        setRange(5);
     }
 
     /*@Override

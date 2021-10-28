@@ -1,4 +1,8 @@
-package oo.heranca.desafioheranca;
+package oo.heranca.teste;
+
+import oo.heranca.desafioheranca.Carro;
+import oo.heranca.desafioheranca.Corsa;
+import oo.heranca.desafioheranca.Ferrari;
 
 public class Pista {
 
@@ -20,12 +24,13 @@ public class Pista {
 
 
         Ferrari f1 = new Ferrari(330);
-
+        // f1.ligarTurbo();
         f1.acelerar();
+        // f1.desligarTurbo();
         f1.acelerar();
-        f1.acelerar();
-        f1.acelerar();
-
+        //f1.acelerar();
+        //f1.acelerar();
+        System.out.println("Velocidade do Ar " + f1.velocidadeAr());
         System.out.println("Acelera Ferrari " + f1);
 
 

@@ -1,8 +1,9 @@
-package oo.heranca;
+package oo.heranca.domain;
 
 public class Heroi extends Jogador {
 
-    boolean atack(Jogador oponente) {
+    @Override
+    public boolean atack(Jogador oponente) {
         boolean atack1 = super.atack(oponente);
         boolean atack2 = super.atack(oponente);
         boolean atack3 = super.atack(oponente);

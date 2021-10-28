@@ -1,12 +1,12 @@
-package oo.heranca;
+package oo.heranca.domain;
 
 public class Jogador {
 
-    int life = 100;
-    int x;
-    int y;
+    public int life = 100;
+    public int x;
+    public int y;
 
-    boolean atack(Jogador oponente) {
+    public boolean atack(Jogador oponente) {
         //aqui é verificado o valor absoluto da diferença entre os eixos
         int deltaX = Math.abs(x - oponente.x);
         int deltaY = Math.abs(y - oponente.y);
@@ -22,7 +22,7 @@ public class Jogador {
         }
     }
 
-    boolean walk(Direcao direcao) {
+    public boolean walk(Direcao direcao) {
         if (direcao == Direcao.NORTE) {
             y--;
         } else if (direcao == Direcao.LESTE) {
